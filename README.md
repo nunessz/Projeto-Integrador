@@ -21,8 +21,8 @@ histórico de movimentações, relatórios simplificados e relatórios em format
 </ul>
 
 ## Usuários para login: 
-user: admin
+user: admin                                                                                                                                                                                                                                                                
 pass: admin
 
-user: usuario
+user: usuario                                                                                                                                                                                                                                                              
 pass: usuario
