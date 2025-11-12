@@ -19,3 +19,10 @@ histórico de movimentações, relatórios simplificados e relatórios em format
   <li>jsPDF</li>
   <li>Bootstrap</li>
 </ul>
+
+## Usuários para login: 
+user: admin
+pass: admin
+
+user: usuario
+pass: usuario
