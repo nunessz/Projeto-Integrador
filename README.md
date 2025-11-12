@@ -3,7 +3,7 @@
 Você pode clonar o repositório na sua máquina utilizando o comando a seguir em seu terminal:<br>
 ``git clone https://github.com/nunessz/Projeto-integrador.git``<br>
 Outra forma para você visualizar, diretamente na web:<br>
-https://igortheus.github.io/Projeto-integrador/login-admin.html<br>
+https://nunessz.github.io/Projeto-Integrador/<br>
 
 ## Para qual finalidade?
 Criamos este projeto, no intuito de auxiliar as atividades diárias dos funcionários da empresa em questão, facilitando o cadastro, remoção de peças, 
