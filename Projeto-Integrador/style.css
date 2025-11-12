@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-container {
+    display: flex;
+    width: 80%;
+    height: 568px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.35);
+
+    & .left-content {
+        display: flex;
+        width: 50%;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #939C9A;
+        border-radius: 10px 0 0 10px;
+
+        & .img-content {
+            padding-bottom: 2.8rem;
+            
+            & img {
+                width: 340px;
+                height: 130px;
+            }
+        }
+
+
+
+        & h2 {
+            font-size: 36px;
+            font-weight: normal;
+            margin-bottom: 9rem;
+            display: flex;
+        }
+    }
+
+    & .right-content {
+        width: 50%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        margin: auto 0;
+
+        & .title {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        & h2 {
+            width: 90px;
+            font-size: 35px;
+            font-weight: normal;
+            border-bottom: 1px solid black;
+        }
+
+        
+        & .inputs {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 18px;
+
+            & label {
+                padding-bottom: 13px;
+                font-size: 16px;
+            }
+
+            & input {
+                height: 32px;
+                width: 280px;
+                border-radius: 10px;
+                border: 1px solid black;
+                padding: 1rem;
+                font-size: 16px;
+                font-weight: 300;
+            }
+
+            & .fa-regular {
+                position: relative;
+                bottom: 25px;
+                left: 120px;
+                cursor: pointer;
+            }
+        }
+
+        & input[type=password]::-ms-reveal, ::-ms-clear{
+            display: none;
+        }
+
+        & .error-inputs {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+            color: red;
+        }
+
+        & .button-content {
+            margin-top: 34px;
+            margin-bottom: 2rem;
+
+            & .btn-sub {
+                width: 90px;
+                height: 24px;
+                border-radius: 30px;
+                border: 1px solid black;
+                cursor: pointer;
+            }
+
+            & .btn-sub:hover {
+                background-color: #ccc;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    section .section-container{
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+
+        & .left-content {
+            border-radius: 0;
+
+            & .img-content {
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section-container{
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        
+        & .left-content {
+            width: 100%;
+            padding: 1rem;
+            border-radius: 10px 10px 0 0;
+
+            .img-content {
+                margin-bottom: 0;
+                padding-top: 1rem;
+                
+            }
+
+            & h2 {
+                margin-bottom: 2rem;
+            }
+        }
+
+        & .right-content {
+            padding: 1rem;
+
+            & .title {
+                padding-bottom: 2rem;
+            }
+
+            & .error-inputs i {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .section-container .left-content {
+        justify-content: flex-start;
+        gap: 30px;
+
+        & .img-content {
+            padding: 0;
+            margin-bottom: 2rem;
+            margin-top: 5rem;
+    
+            & img {
+                width: 260px;
+                height: 90px;
+            }
+        }
+    }
+    .left-content h2 {
+        margin: 0;
+    }
+}
