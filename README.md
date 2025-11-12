@@ -1,7 +1,7 @@
 # Projeto Integrador (Ferragens Negrão)
 ## Como visualizar?
 Você pode clonar o repositório na sua máquina utilizando o comando a seguir em seu terminal:<br>
-``git clone https://github.com/IgorTheus/Projeto-integrador.git``<br>
+``git clone https://github.com/nunessz/Projeto-integrador.git``<br>
 Outra forma para você visualizar, diretamente na web:<br>
 https://igortheus.github.io/Projeto-integrador/login-admin.html<br>
 
